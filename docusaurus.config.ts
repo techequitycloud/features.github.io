@@ -104,24 +104,24 @@ const config: Config = {
           title: 'Documentation',
           items: [
             {
-              label: 'Getting Started',
-              to: '/docs/getting-started',
+              label: 'Platform Overview',
+              to: '/docs/platform/modules',
             },
             {
               label: 'Administrator Guide',
-              to: '/docs/guides/admin',
+              to: '/docs/users/user-management',
             },
             {
               label: 'Partner Guide',
-              to: '/docs/guides/partner',
+              to: '/docs/modules/partner-modules',
             },
             {
               label: 'User Guide',
-              to: '/docs/guides/user',
+              to: '/docs/platform/modules',
             },
             {
               label: 'Finance Guide',
-              to: '/docs/guides/finance',
+              to: '/docs/billing/overview',
             },
           ],
         },
@@ -138,7 +138,7 @@ const config: Config = {
             },
             {
               label: 'Support',
-              to: '/docs/support',
+              to: '/docs/support/overview',
             },
           ],
         },
