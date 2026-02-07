@@ -6,6 +6,43 @@ const sidebars: SidebarsConfig = {
   docsSidebar: [
     {
       type: 'category',
+      label: 'Workflows',
+      items: [
+        'workflows/getting-started',
+        'workflows/user',
+        'workflows/partner',
+        'workflows/admin',
+        'workflows/agent',
+        'workflows/finance',
+        'workflows/support',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Features',
+      items: [
+        'features/users',
+        'features/partners',
+        'features/admins',
+        'features/agents',
+        'features/finance',
+        'features/support',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Guides',
+      items: [
+        'guides/user-guide',
+        'guides/partner-guide',
+        'guides/admin-guide',
+        'guides/agent-guide',
+        'guides/finance-guide',
+        'guides/support-guide',
+      ],
+    },
+    {
+      type: 'category',
       label: 'Platform',
       items: [
         'platform/modules',
